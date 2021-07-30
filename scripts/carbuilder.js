@@ -1,6 +1,6 @@
 import { Paint } from "./paintcolor.js"
 import { Technology } from "./technology.js"
-import { Interior } from "./interiortype.js"
+import { Interior } from "./interior.js"
 import { Wheels } from "./wheels.js"
 import { Orders } from "./orders.js"
 import { addCustomOrder } from "./database.js"
@@ -42,9 +42,10 @@ export const CarBuilder = () => {
             </section>
         </article>
 
+        <article class="type">
+        <h2>Type</h2>
         ${ Type() }
-
-        <article>
+        </article>
             <button id="orderButton">Create Custom Order</button>
         </article>
 

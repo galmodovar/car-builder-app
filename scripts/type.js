@@ -14,7 +14,7 @@ document.addEventListener(
 
 
 export const Type = () => {
-    let html = "<div> <h2>Types</h2>"
+    let html = ""
 
     // Use .map() for converting objects to <li> elements
     const listItems = items.map(item => {
@@ -24,7 +24,7 @@ export const Type = () => {
     })
 
     html += listItems.join("")
-    html += "</div>"
+    html += ""
 
     return html
 }

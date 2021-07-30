@@ -36,8 +36,14 @@ ul {
   display: flex;
 }
 
-div {
-  margin: 1rem 0 -0.5rem 2rem;
+.type {
+  margin: 0rem 0 -0.5rem 3rem;
   padding: 0.5rem;
 
+}
+
+.type h2 {
+  width: 17%;
+  margin: 0px;
+  text-align: center;
 }
